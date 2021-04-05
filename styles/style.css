@@ -46,9 +46,11 @@
 
   .header__subtitle {
   display:flex;
+  flex-wrap: wrap;
   position: absolute;
   left: 64px;
   bottom: 30px;
+  width: 25%;
   z-index: 1;
   text-align: left;
   line-height: 25px;
