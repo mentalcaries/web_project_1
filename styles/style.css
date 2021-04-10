@@ -315,13 +315,16 @@ color: #2f80ed;
 .footer {
   background-color: #1f1f1f;
   color: white;
+  display: flex;
   min-height: 350px;
- }
+
+
+  }
 
 .footer__columns {
-  height: 100%;
   display: flex;
   justify-content: space-around;
+  width: 100%;
   padding-top: 60px;
   padding-bottom: 40px;
  }
@@ -350,8 +353,8 @@ color: #2f80ed;
 .footer__column_content_about {
   display: flex;
   flex-direction: column;
-  justify-content: ;
-}
+  height: 100%;
+ }
 
 .footer__column-heading {
 
@@ -381,9 +384,9 @@ color: #2f80ed;
   color: white;
 }
 
-.footer__column_content_social {
+/* .footer__column_content_social {
 
-}
+} */
 
 .footer__social-icons {
   display: flex;
