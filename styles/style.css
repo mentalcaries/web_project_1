@@ -14,7 +14,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  display:flex;
+  display: flex;
   position: relative;
   /* parameters for the header section */
 }
@@ -22,7 +22,6 @@
 .logo {
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 
 .logo_place_header {
@@ -30,10 +29,9 @@
   height: 31px;
   width: 154px;
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   margin-top: 30px;
   margin-left: 64px;
-
 }
 
 .header__title {
@@ -43,19 +41,19 @@
   font-size: 102px;
   font-weight: bold;
   z-index: 2;
-  }
+}
 
-  .header__subtitle {
+.header__subtitle {
   position: absolute;
   left: 64px;
   bottom: 30px;
   width: 388px;
-  z-index: 1;
+  z-index: 3;
   text-align: left;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin:0px;
+  margin: 0px;
 }
 
 .header__link {
@@ -73,37 +71,37 @@
   right: 0px;
   bottom: 0px;
   z-index: 2;
-
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
+
 .header__square-pic {
   height: 568px;
   width: 568px;
-  background-color:#2f80ed;
+  background-color: #2f80ed;
   position: absolute;
   right: 0px;
   top: 64px;
   z-index: 0;
-
 }
 
 .content {
-  margin:0;
+  margin: 0;
 }
 
 .description {
-  margin: 100px auto;
-  width: 80%;
+  margin: 100px 0px;
 }
 
 .two-columns {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
 .two-columns__brief {
-  margin:0px;
+  margin: 0px;
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -118,36 +116,35 @@
   min-width: 784px;
   width: 80%;
   margin-bottom: 0%;
-  }
+}
 
-.two-columns__paragraph{
+.two-columns__paragraph {
   margin-top: 0;
   padding-bottom: 30px;
   text-align: left;
 }
+
 .two-columns__paragraph:last-child {
   margin-bottom: 0px;
 }
 
 .two-columns__span-accent {
-line-height: 34px;
-font-size: 24px;
-font-weight: bold;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .digits {
-  margin:auto;
+  margin: auto;
   margin-bottom: 100px;
-
 }
 
 .section-title {
-text-align: center;
-line-height: 69px;
-font-size: 60px;
-font-weight: bold;
-margin:0px;
-
+  text-align: center;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0px;
 }
 
 .section-subtitle {
@@ -155,15 +152,16 @@ margin:0px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 20px 0px 0px;
 }
 
 .table {
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
   margin: 0px auto;
+  padding: 0;
 }
 
 .table__cell {
@@ -176,22 +174,21 @@ margin:0px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin:0px;
+  margin: 0px;
 }
 
-.table__text{
-margin: 20px 0px 0px;
-line-height: 1.2;
-font-size: 18px;
-font-weight: normal;
+.table__text {
+  margin: 20px 0px 0px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
-.feynman{
+.feynman {
   min-height: 790px;
   background-color: #f2f2f2;
   padding-top: 100px;
   position: relative;
-
 }
 
 .feynman__background-image {
@@ -228,7 +225,7 @@ font-weight: normal;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  position:absolute;
+  position: absolute;
   top: 50%;
   right: 46px;
   z-index: 4;
@@ -240,21 +237,20 @@ font-weight: normal;
 .kaufman {
   background-color: #1f1f1f;
   overflow: hidden;
-  color:white;
+  color: white;
   margin: 0px auto;
-  padding: 20px auto 0px;
+  padding: 90px 0px 90px;
   position: relative;
-  }
+}
 
 .section-title_theme_dark {
-  color: white;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
   text-align: center;
-  margin: 90px auto 0px;
+  margin: 0px auto;
   width: 60%;
-  position:relative;
+  position: relative;
   z-index: 4;
 }
 
@@ -263,48 +259,47 @@ font-weight: normal;
   font-size: 24px;
   font-weight: normal;
   text-align: center;
-  margin-bottom: 80px;
 }
 
 .table_theme_dark {
   width: 1100px;
-  margin: 0px auto 90px;
+  margin: 0px auto;
   position: relative;
   z-index: 4;
 }
 
 /* including elements with key-value modifiers */
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
+  margin: 80px 0px 0px;
   list-style: none;
   z-index: 2;
 }
-
 
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-
 }
 
 .table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 20px;
 }
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
   background-repeat: no-repeat;
-  height: 660px;
-  width: 636px;
-  position:absolute;
+  height: 636px;
+  width: 660px;
+  position: absolute;
   right: -124px;
-  top:0;
-  z-index:1;
+  top: 0;
+  z-index: 1;
 }
 
 .footer {
@@ -312,9 +307,7 @@ font-weight: normal;
   color: white;
   display: flex;
   min-height: 350px;
-
-
-  }
+}
 
 .footer__columns {
   display: flex;
@@ -322,17 +315,17 @@ font-weight: normal;
   width: 100%;
   padding-top: 60px;
   padding-bottom: 40px;
- }
+}
 
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- }
+}
 
 .logo_place_footer {
-  background-image: url(/images/logo_place_footer.png);
+  background-image: url(../images/logo_place_footer.png);
   height: 35px;
   width: 183px;
 }
@@ -343,28 +336,26 @@ font-weight: normal;
   font-weight: normal;
   padding-top: 18px;
   padding-bottom: 18px;
-  margin:0px;
+  margin: 0px;
 }
 
 .footer__column_content_about {
   display: flex;
   flex-direction: column;
   height: 100%;
- }
+}
 
 .footer__column-heading {
-
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
   margin: 0 0 20px;
-  }
+}
 
 .footer__list {
   display: flex;
   flex-direction: column;
-  }
-
+}
 
 .footer__column-link {
   line-height: 30px;
@@ -374,9 +365,7 @@ font-weight: normal;
   justify-content: space-between;
   color: white;
   text-decoration: none;
-  }
-
-
+}
 
 /* .footer__column_content_social {
 
@@ -386,5 +375,3 @@ font-weight: normal;
   display: flex;
   flex-direction: column;
 }
-
-
