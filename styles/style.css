@@ -119,8 +119,7 @@
 }
 
 .two-columns__paragraph {
-  margin-top: 0;
-  padding-bottom: 30px;
+  margin: 0px 0px 30px;
   text-align: left;
 }
 
@@ -237,13 +236,14 @@
 .kaufman {
   background-color: #1f1f1f;
   overflow: hidden;
-  color: white;
   margin: 0px auto;
   padding: 90px 0px 90px;
   position: relative;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
+  color: white;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
@@ -251,10 +251,10 @@
   margin: 0px auto;
   width: 60%;
   position: relative;
-  z-index: 4;
 }
 
 .section-subtitle_theme_dark {
+  color: white;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -265,7 +265,6 @@
   width: 1100px;
   margin: 0px auto;
   position: relative;
-  z-index: 4;
 }
 
 /* including elements with key-value modifiers */
@@ -275,7 +274,6 @@
   color: white;
   margin: 80px 0px 0px;
   list-style: none;
-  z-index: 2;
 }
 
 .table__heading_theme_dark {
@@ -299,7 +297,7 @@
   position: absolute;
   right: -124px;
   top: 0;
-  z-index: 1;
+  z-index: -1;
 }
 
 .footer {
