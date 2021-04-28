@@ -1,0 +1,5 @@
+.footer__column_content_about {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
