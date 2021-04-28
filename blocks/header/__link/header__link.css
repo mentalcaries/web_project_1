@@ -2,8 +2,10 @@
   text-align: left;
   text-decoration: none;
   color: #2f80ed;
+  transition: linear 0.5s ;
   }
 
 .header__link:hover {
+  opacity: 0.5;
 
 }

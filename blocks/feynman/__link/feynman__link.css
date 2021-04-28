@@ -9,4 +9,8 @@
   text-decoration: none;
   color: #2f80ed;
   cursor: pointer;
+  transition: linear 0.5s ;
+}
+.feynman__link:hover {
+  opacity: 0.5;
 }

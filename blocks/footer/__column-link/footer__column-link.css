@@ -6,4 +6,9 @@
   justify-content: space-between;
   color: white;
   text-decoration: none;
+  transition: linear 0.5s ;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
