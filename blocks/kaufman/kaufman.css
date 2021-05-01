@@ -6,3 +6,7 @@
   position: relative;
   z-index: 1;
 }
+
+.kaufman .section-title {
+  padding-top: 90px;
+}
