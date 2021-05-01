@@ -1,14 +1,14 @@
 @import url(./__iframe/video__iframe.css);
 @import url(./_iframes/video__iframes.css);
-
 .video {
   margin-bottom: -60px;
 }
-.video .section-title{
-margin: 0 auto 0;
-line-height: 1.15;
-font-size: 60px;
-font-weight: bold;
+
+.video .section-title {
+  margin: 0 auto 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .video .section-subtitle {
@@ -17,4 +17,3 @@ font-weight: bold;
   font-size: 24px;
   font-weight: normal;
 }
-
