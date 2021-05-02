@@ -1,4 +1,10 @@
 .video__iframes {
   text-align: center;
   margin: 0px auto 0px;
+  padding:0px;
+  list-style: none;
+  columns: 2;
+  column-gap: 20px;
+  display: flex;
+  justify-content: center;
 }
