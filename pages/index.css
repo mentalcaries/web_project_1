@@ -4,6 +4,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/description/description.css);
+@import url(../blocks/techniques/techniques.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
@@ -19,4 +20,3 @@
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/cards/cards.css);
-/* @import url(../blocks/techniques/techniques.css); */
