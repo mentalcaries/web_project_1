@@ -1,5 +1,7 @@
 Learning How to Learn - A Practicum Project
 
+See here https://mentalcaries.github.io/web_project_1/
+
 This webpage combines the first and second sprints of the Practicum syllabus and focuses on HTML and CSS. Classes are named according to BEM methodologies with just about all of the styling being done via CSS. There was a great deal of practice and variety in positioning elements with and without flexbox.
 
 The second sprint was based on the first project, but involved changing the file structures to be BEM compliant. While this was certainly tedious, it definitely helped from an organisational standpoint.
